@@ -408,6 +408,7 @@ footer {
 
 .hero-buttons {
     display: flex;
-    gap: 15px;
+    gap: 16px;
+    margin-top: 25px;
     flex-wrap: wrap;
 }
