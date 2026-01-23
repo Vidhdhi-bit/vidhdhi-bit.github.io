@@ -349,3 +349,41 @@ footer {
     background: var(--accent-blue);
     color: #020617;
 }
+/* CONTACT SECTION */
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-text {
+    max-width: 600px;
+    margin: 20px auto 40px;
+    color: var(--text-muted);
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.whatsapp {
+    background: #25D366;
+    color: #020617 !important;
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
