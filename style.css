@@ -324,4 +324,28 @@ footer {
 .dot.active {
     background: var(--accent-blue);
 }
+/* TESTIMONIAL CONTROLS */
+.testimonial-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
 
+.arrow {
+    background: var(--bg-card);
+    border: 1px solid #1f2933;
+    color: var(--accent-blue);
+    font-size: 22px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow:hover {
+    background: var(--accent-blue);
+    color: #020617;
+}
