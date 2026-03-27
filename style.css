@@ -229,6 +229,7 @@ footer {
 
     .navbar {
         flex-direction: column;
+         padding: 15px 20px;
     }
 .navbar ul {
     margin-top: 10px;
