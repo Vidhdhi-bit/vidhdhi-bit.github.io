@@ -430,9 +430,8 @@ footer {
 
 .founder-badges {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;   /* important */
+    justify-content: flex-start;  /* FIX */
+    gap: 12px;
     margin: 20px 0;
 }
 
