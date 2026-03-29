@@ -245,6 +245,14 @@ footer {
     .navbar li {
         margin: 8px 10px;
     }
+    .founder-badges {
+        gap: 8px;
+    }
+
+    .founder-badges span {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
 }
 /* SERVICES */
 .services {
@@ -421,13 +429,17 @@ footer {
 }
 
 .founder-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;   /* important */
     margin: 20px 0;
 }
 
 .founder-badges span {
     background: #1f2933;
-    padding: 6px 12px;
-    margin-right: 10px;
+    padding: 8px 14px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 13px;
+    white-space: nowrap;  /* prevents breaking text */
 }
