@@ -19,7 +19,11 @@ body {
     background: var(--bg-main);
     color: var(--text-main);
 }
-
+.container {
+    max-width: 1180px;   /* you can use 1120px also */
+    margin: 0 auto;
+    padding: 0 20px;
+}
 /* NAVBAR */
 .navbar {
     display: flex;
